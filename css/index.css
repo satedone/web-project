@@ -4,9 +4,60 @@
 @import url(services.css);
 @import url(footer.css);
 
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+._container {
+	max-width: 1367px;
+	padding: 0px 15px;
+	margin: 0px auto;
+	box-sizing: content-box;
+}
+
+
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+
+.header__container {
+	display: flex;
+	min-height: 150px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-family: 'Ubuntu';
+	font-size: 36px;
+	color: black;
+	text-decoration: none;
+}
+
+
 .head_burger_icon {
 	height: 37px;
 	width: 37px;
+}
+
+.head__button {
+	display: inline-block;
+	cursor: pointer; 
+	font-size:14px;
+	text-decoration:none;
+	padding:10px 20px; 
+	color:#ffffff;
+	background:#7E76E6;
+	border-radius:5px;
+	border:0px solid #354251;
+}
+
+.head__button:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
 }
 
 .main_background {
@@ -45,18 +96,4 @@
 .button__constructor:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
 }
 
-.head__button {
-	margin-top: 50px;	
-	display: inline-block;
-	cursor: pointer; 
-	font-size:14px;
-	text-decoration:none;
-	padding:10px 20px; 
-	color:#ffffff;
-	background:#7E76E6;
-	border-radius:5px;
-	border:0px solid #354251;
-}
 
-.head__button:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
-}
