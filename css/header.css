@@ -1,0 +1,69 @@
+
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+  }
+  
+.header__container {
+	display: flex;
+	min-height: 74px;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;	
+	margin-top: 15px;
+}
+ 
+.header__logo {
+	font-family: 'Ubuntu';
+	font-size: 36px;
+	color: black;
+	text-decoration: none;
+}
+
+.header__left {
+	flex-grow: 0;
+	margin-right: 25px;
+}
+
+.header__center {
+	flex-grow: 0;
+	margin-right: 25px;	
+}
+
+.header__right {
+	flex-grow: 1;
+}
+
+.head__information {
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	background-color: #A994E6;
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	
+}
+  
+.head_burger_icon {
+	height: 37px;
+	width: 37px;
+}
+  
+.head__button {
+	display: inline-block;
+	cursor: pointer; 
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px 20px; 
+	color: #ffffff;
+	background: #7E76E6;
+	border-radius: 5px;
+	border: 0px solid #354251;
+}
+
+.head__button:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
+}
