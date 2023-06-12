@@ -14,13 +14,39 @@
 	align-items: center;
 	flex-direction: row;	
 	margin-top: 15px;
+
 }
+
+
  
 .header__logo {
 	font-family: 'Ubuntu';
-	font-size: 36px;
+	font-size: 25px;
 	color: black;
 	text-decoration: none;
+	padding-right: 10px;
+}
+
+.head__information {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	color: var(--second-text-color);
+	background-color: var(--background-color);
+	padding-left: 10px;
+	text-transform: uppercase;
+	padding: 15px;
+	
+}
+
+
+@media (min-width: 646px) {
+	.header__logo {
+		font-size: 35px;
+	}
+	.head__information {
+		font-size: 25px;
+	}
+
 }
 
 .header__left {
@@ -30,23 +56,14 @@
 
 .header__center {
 	flex-grow: 0;
-	margin-right: 25px;	
+	margin-right: 10px;	
 }
 
 .header__right {
 	flex-grow: 1;
 }
 
-.head__information {
-	font-family: 'Ubuntu';
-	font-size: 30px;
-	color: rgb(255, 255, 255);
-	background-color: #A994E6;
-	padding-left: 10px;
-	text-transform: uppercase;
-	padding: 15px;
-	
-}
+
   
 .head_burger_icon {
 	height: 37px;
