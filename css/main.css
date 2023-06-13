@@ -1,35 +1,38 @@
 .main_background {
 	background-image: url("../img/main_background.png");
 	background-repeat: no-repeat;
-	background-position: 50%;
-	padding: 50px;
-	color: black;
-	min-height: 650px;
-	width: 100%;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 50px;
+	color: var(--main-text-color);
+	font-family: ubuntu;
 }
 
 .main__text	{
-	margin-top: 10%;
-	font-family: ubuntu;
+	margin-top: 200px;
 	font-size: 22px;
 }
 
 .subject__text	{
 	margin-top: 50px;
-	font-family: ubuntu;
 }
 
 .button__constructor {
-	margin-top: 50px;	
+	margin-top: 50px;
 	display: inline-block;
-	cursor: pointer; 
-	font-size:14px;
-	text-decoration:none;
-	padding:10px 20px; 
-	color:#ffffff;
-	background:#7E76E6;
-	border-radius:5px;
-	border:0px solid #354251;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: var(--second-text-color);
+	border-radius: 5px;
+	border: 0 solid var(--button-hover-color);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.114) 100%), var(--background-color);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.button__constructor p {
+	margin-bottom: 0;
 }
 
 .button__constructor:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
