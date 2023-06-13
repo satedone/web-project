@@ -28,12 +28,14 @@
 	color: var(--second-text-color);
 	border-radius: 5px;
 	border: 0 solid var(--button-hover-color);
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.114) 100%), var(--background-color);
-	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	/* background: linear-gradient(180deg, var(--main-text-color) 0%, var(--gradient-button-color) 100%), var(--background-color); */
+	/* need to correct */
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.114) 100%), #7E76E6;
+	box-shadow: 0px 2px 2px var(--box-shadow-button-color);
 }
 .button__constructor p {
 	margin-bottom: 0;
 }
 
-.button__constructor:hover{background:#354251;color:#ffffff;border:0px solid #354251;transition: all 0.2s ease;
+.button__constructor:hover{background:var(--button-hover-color);color:var(--second-text-color);border:0px solid var(--button-hover-color);transition: all 0.2s ease;
 }
