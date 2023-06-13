@@ -10,16 +10,21 @@
 }
 
 .main__text	{
-	margin-top: 200px;
+	margin-top: 150px;
+	margin-left: 30px;
 	font-size: 22px;
+	font-weight: 500;
 }
 
 .subject__text	{
 	margin-top: 50px;
+	margin-left: 30px;
+	font-weight: 300;
 }
 
 .button__constructor {
-	margin-top: 50px;
+	margin-top: 16px;
+	margin-left: 30px;
 	display: inline-block;
 	cursor: pointer;
 	font-size: 14px;
@@ -38,4 +43,10 @@
 }
 
 .button__constructor:hover{background:var(--button-hover-color);color:var(--second-text-color);border:0px solid var(--button-hover-color);transition: all 0.2s ease;
+}
+
+@media (min-width: 646px) {
+	.main__text {
+		max-width: 600px;
+	}
 }
