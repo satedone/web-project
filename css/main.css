@@ -86,4 +86,8 @@
 		right: 40px;
 		margin: 0;
 	}
+	.main_bottom_item {
+		display: flex;
+	}
+
 }
