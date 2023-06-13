@@ -82,12 +82,13 @@
 
 @media (min-width: 646px) {
 	.button__voice_control {
-		position: absolute;
-		right: 40px;
-		margin: 0;
+		margin-right: 55px;
 	}
 	.main_bottom_item {
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 30px;
 	}
 
 }
