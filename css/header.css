@@ -101,7 +101,7 @@
 }
 
 .header__right {
-
+	background-color: var(--background-color);
 }
 
 
