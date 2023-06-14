@@ -13,8 +13,10 @@
     --second-text-color: white;
     --background-color: #A994E6;
     --button-hover-color: #354251; 
-    --gradient-button-color: #0000001d;
+    --gradient-button-color0: #00000000;
+    --gradient-button-color100: #0000001d;
     --box-shadow-button-color: #00000040;
+    
 }
 
 img {
