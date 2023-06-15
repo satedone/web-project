@@ -49,6 +49,15 @@
 	.main__text {
 		max-width: 600px;
 	}
+	.button__voice_control {
+		margin-right: 55px;
+	}
+	.main_bottom_item {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 30px;
+		align-items: flex-start;
+	}
 }
 
 .button__voice_control {
@@ -78,16 +87,4 @@
 	height: 45px;
 }
 
-@media (min-width: 646px) {
-	.button__voice_control {
-		margin-right: 55px;
-	}
-	.main_bottom_item {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding-bottom: 30px;
-	}
-
-}
 

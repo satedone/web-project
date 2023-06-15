@@ -2,14 +2,12 @@
 	font-size: 36px;
 }
 
-.image__brand_logos {
-}
 .meet__regular_text {
 	font-size: 18px;
 	line-height: 24px;
 }
 
-.meet__backgroind_house {
+.meet__background_house {
 	background-image: url("../img/concept_house.png");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
