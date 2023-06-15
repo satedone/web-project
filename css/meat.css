@@ -12,19 +12,36 @@
 
 .meet__regular_text {
 	font-size: 18px;
+	font-weight: 300;
 	line-height: 24px;
 	margin-left: 30px;
 }
 
-.meat__content {
+.meet__content {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 
-
 }
 .meet__background_house {
-	max-width: 500px;	
 	padding-top: 30px;
 	padding-bottom: 30px;
 }	
+
+@media (min-width: 646px) {
+
+}
+
+@media (min-width: 1095px) {
+	.meet__content {
+		flex-wrap: nowrap;
+	}
+	.meet__background_house {
+		flex-basis: 60%;
+	}
+	.meet__regular_text {
+		flex-basis: 40%;
+		padding-top: 30px;
+		margin-right: 30px;	
+	}
+}
