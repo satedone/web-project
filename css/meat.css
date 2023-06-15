@@ -28,11 +28,36 @@
 	padding-bottom: 30px;
 }	
 
+.meet__brands {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+	
+.meet__brands_logo {
+	display: flex;
+	width: 200px;
+	height: 40px;
+	align-items: center;
+	font-weight: 600;
+	
+
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+
+
 @media (min-width: 646px) {
 
 }
 
-@media (min-width: 1095px) {
+@media (min-width: 1200px) {
 	.meet__content {
 		flex-wrap: nowrap;
 	}
