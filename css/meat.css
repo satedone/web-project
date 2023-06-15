@@ -9,21 +9,22 @@
 
 }
 
+
 .meet__regular_text {
 	font-size: 18px;
 	line-height: 24px;
+	margin-left: 30px;
 }
 
 .meat__content {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+
+
 }
 .meet__background_house {
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	background-size: cover;
-	padding-top: 50px;
-	color: var(--main-text-color);
-	font-family: ubuntu;
-}
+	max-width: 500px;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+}	
