@@ -34,8 +34,6 @@
 	color: var(--second-text-color);
 	border-radius: 5px;
 	border: 0 solid var(--button-hover-color);
-	/* background: linear-gradient(180deg, var(--main-text-color) 0%, var(--gradient-button-color) 100%), var(--background-color); */
-	/* need to correct */
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.114) 100%), #7E76E6;
 	box-shadow: 0px 2px 2px var(--box-shadow-button-color);
 }
@@ -92,3 +90,4 @@
 	}
 
 }
+

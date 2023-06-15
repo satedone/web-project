@@ -1,0 +1,21 @@
+.meet__head_text {
+	font-size: 36px;
+}
+
+.image__brand_logos {
+}
+.meet__regular_text {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.meet__backgroind_house {
+	background-image: url("../img/concept_house.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 50px;
+	color: var(--main-text-color);
+	font-family: ubuntu;
+}
