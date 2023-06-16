@@ -1,0 +1,42 @@
+.include__container {
+	max-width: auto;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+	padding-top: 30px;
+
+}
+
+.include__all_sections {
+	display: flex;
+}
+
+.include__directions_colum {
+	background-image: url("../img/directions_background.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 50px;
+	color: var(--main-text-color);
+
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+
+}
+
+.parts {
+	display: flex;
+	width: 350px;
+}
+
+.small_icon {
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
