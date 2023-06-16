@@ -1,0 +1,16 @@
+.advantages {
+	padding-top: 30px;
+}
+
+.advantages__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
