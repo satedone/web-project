@@ -9,11 +9,16 @@
 
 .include__title {
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 .include__all_sections {
 	display: flex;
+	width: 100%;
+	justify-content: center
 }
+
+
 
 .include__directions_colum {
 	display: inline-flex;
@@ -44,6 +49,9 @@
 	margin: 15px;
 }
 
+.parts .advantages__text_main {
+	text-align: left;
+}
 .small_icon img {
 	fill: #847CED;
 }
@@ -81,6 +89,21 @@
 	line-height: 24px;
 	text-transform: uppercase;
 	padding: 10px 15px;
-	text-align: left;
+	text-align: center;
 }
+
+.include__images_colum {
+	background-image: url("../img/image_background.png");
+	width: 330px;
+}
+
+.include__discription_colum {
+	background-image: url("../img/discription_background.png");
+	width: 500px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+
 
