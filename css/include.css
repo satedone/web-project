@@ -7,6 +7,10 @@
 
 }
 
+.include__title {
+	text-align: center;
+}
+
 .include__all_sections {
 	display: flex;
 }
@@ -41,11 +45,20 @@
 	align-items: center;
 }
 
+.small_icon_button {
+	background-color: gray;
+	border-radius: 5px;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+  }
+
 .small_icon {
-	width: 70px;
-	height: 70px;
-	margin: 10px;
+	fill: violet;
+	width: 24px;
+	height: 24px;
 }
+
 
 .advantages__text_main {
 	font-family: 'Ubuntu';
@@ -56,3 +69,27 @@
 	padding: 10px 0;
 	text-align: left;
 }
+
+
+.box-button {
+	border: 1px solid orange;
+	color: orange;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 5px 5px;
+	width: 90%;
+	font-size: 1.2rem;
+  }
+  
+  .box-button:hover {
+	background-color: orange;
+	color: white;
+  }
+  
+  .box-button:hover .icon-svg {
+	fill: white !important;
+  }
+  
+  .icon-svg {
+	fill: orange;
+  }
