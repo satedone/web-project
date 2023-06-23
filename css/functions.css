@@ -1,0 +1,56 @@
+.functions__container {
+    width: 100%;
+    padding: 50px;
+}
+
+.funtions_background {
+    background-color: #F7F7F9;
+    border-radius: 10px;
+}
+
+.functions_header {
+    padding: 20px;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.functions_dis {
+    padding-bottom: 20px;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.functions_window {
+    display: flex;
+    border: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.func__1_collum {
+    display: flex;
+    border: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.func__row_title {
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.func__row_text {
+    font-family: "Ubuntu";
+    font-size: 16px;
+}
+
+.func__row_checkboxes {
+    display: flex;
+}
+
+.func_checkbox_col {
+    width: 300px;
+    border: 1px;
+    border-radius: 5px;
+    border-color: black;
+}
