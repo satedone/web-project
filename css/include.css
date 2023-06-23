@@ -55,6 +55,13 @@
 	padding-left: 30px;
 }
 
+@media (min-width: 480px) {
+	.parts {
+		width: auto;
+	}
+}
+
+
 .parts .advantages__text_main {
 	text-align: left;
 }
