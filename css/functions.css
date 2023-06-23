@@ -22,6 +22,7 @@
 
 .functions_window {
     display: flex;
+    justify-content: center;
     border: 1px;
     border-radius: 5px;
     border-color: black;
@@ -29,6 +30,8 @@
 
 .func__1_collum {
     display: flex;
+    justify-content: center;
+    padding: 20px;
     border: 1px;
     border-radius: 5px;
     border-color: black;
@@ -46,9 +49,13 @@
 
 .func__row_checkboxes {
     display: flex;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .func_checkbox_col {
+    display: flex;
+    flex-direction: column;
     width: 300px;
     border: 1px;
     border-radius: 5px;
