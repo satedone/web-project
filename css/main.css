@@ -60,6 +60,17 @@
 	}
 }
 
+@media (min-width: 1400px) {
+	.main__text {
+		margin-top: 100px;
+		margin-left: 10%;
+	}
+	.subject__text {
+		margin-left: 10%;
+	}
+
+}
+
 .button__voice_control {
 	display: flex;
 	align-items: center;

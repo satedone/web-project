@@ -1,6 +1,6 @@
 .functions__container {
     width: 100%;
-    padding: 50px;
+    padding: 30px;
 }
 
 .funtions_background {
@@ -15,7 +15,7 @@
 }
 
 .functions_dis {
-    padding-bottom: 20px;
+    margin: 20px;
     font-family: "Ubuntu";
     text-align: center;
 }
@@ -49,6 +49,7 @@
 
 .func__row_checkboxes {
     display: flex;
+    flex-direction: column;
     padding: 30px;
     border-radius: 10px;
 }
@@ -60,4 +61,10 @@
     border: 1px;
     border-radius: 5px;
     border-color: black;
+}
+
+@media (min-width: 874px) {
+	.func__row_checkboxes {
+		flex-direction: row;
+    }
 }
